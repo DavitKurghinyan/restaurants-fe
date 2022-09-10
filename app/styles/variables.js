@@ -1,6 +1,9 @@
 export const primaryColor = '#344055';
-export const boulderColor = '#7d7d7d';
-export const greyColor = '#949494';
+export const boulderColor = '#b9b9b9';
+export const greyColor = '#efefef';
+export const whiteColor = '#ffffff';
+export const blackColor = '#000000';
+export const blueColor = '#284898';
 
 export const extraSmallFontSize = '10px';
 export const smallFontSize = '12px';

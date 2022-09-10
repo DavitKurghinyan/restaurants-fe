@@ -11,9 +11,8 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import RestaurantsDetail from 'containers/RestaurantsDetailPage/Loadable';
-import RestaurantsPage from 'containers/RestaurantsPage/Loadable';
-import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import WatchListPage from '../WatchListPage/Loadable';
+import NotFoundPage from '../NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
 
@@ -36,8 +35,7 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={RestaurantsPage} />
-        <Route path="/restaurants/:id" component={RestaurantsDetail} />
+        <Route exact path="/" component={WatchListPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

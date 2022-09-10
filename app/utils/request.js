@@ -5,7 +5,7 @@
  *
  * @return {object}          The parsed JSON from the request
  */
-import { SERVER_URL } from '../../config';
+// import { SERVER_URL } from '../../config';
 
 function parseJSON(response) {
   if (response.status === 204 || response.status === 205) {
@@ -40,7 +40,7 @@ function checkStatus(response) {
  * @return {object}           The response data
  */
 export default function request(url, options) {
-  return fetch(`${SERVER_URL}/${url}`, {
+  return fetch(`${url}`, {
     headers: {
       'Content-Type': 'application/json',
     },

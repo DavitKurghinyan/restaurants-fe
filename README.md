@@ -1,4 +1,4 @@
-# Restaurants FE
+# City Falcon FE
 
 ## Requirements
 1. Node `>= v8.15.1`
@@ -14,4 +14,5 @@ Run `npm run start`
 Run `npm run build`
 
 It will create `build` folder with the already built code in the root of the app 
-# restaurants-fe
+# city-falcon-fe
+# City-Falcon-Task
